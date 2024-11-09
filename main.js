@@ -7,7 +7,7 @@ function openBahnsteig(abstand,minAbstand,maxabstand,hoehe,minHoehe,maxHoehe){
     this.minHoehe = minHoehe;
     this.maxHoehe = maxHoehe;
     saveToLocalStorage(abstand,minAbstand,maxabstand,hoehe,minAbstand,maxHoehe);
-    window.location.href = "../bahnsteigberechnung/bahnsteig.html"
+    window.location.href = "./bahnsteig.html"
 }
 
 // Funktion um die Zahlen in den local Storage zu packen
